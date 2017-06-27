@@ -3,3 +3,7 @@ main: healthy\main
 version: 1.0v
 api: 3.0.0-ALPHA3
 author: plugmcpe
+ commands:
+ heal:
+ description: make player healed
+ use '/heal'
