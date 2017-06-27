@@ -12,3 +12,9 @@ $this->getLogger()->info("everything is good");
  $this->getServer()->getLogger()->info("plugin has been disable"); 
   }
 }
+public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
+switch ($cmd->getName()){
+ case 'heal':
+  $sender->setHealth(20);
+ }
+}
