@@ -6,4 +6,3 @@ author: plugmcpe
  commands:
  heal:
  description: make player healed
- use '/heal'
