@@ -1,7 +1,7 @@
 name: healthy
-main: healthy\main
+main: healthy\Main
 version: 1.0v
-api: 3.0.0-ALPHA3
+api: 3.0.0
 author: plugmcpe
  commands:
  heal:
