@@ -3,3 +3,6 @@ main: healthy\Main
 version: 1.0v
 api: 3.0.0
 author: plugmcpe
+ commands:
+  heal:
+ description: make player healed
